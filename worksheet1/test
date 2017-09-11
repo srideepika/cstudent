@@ -1,4 +1,2 @@
 #!/bin/bash
-set -eu
-gcc operations.c main.c
-./a.out
+gcc operations.c main.c && ./a.out
