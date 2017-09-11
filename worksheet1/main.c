@@ -1,4 +1,5 @@
 #include <assert.h>
+#include <stdio.h>
 
 int main(int argc, char* argv[]) {
   assert(4 == addition(2,2));
@@ -28,6 +29,8 @@ int main(int argc, char* argv[]) {
   assert(0 == division(-5,15));
   assert(0 == division(1,3));
   assert(3 == division(3,1));
+
+  puts("All operations completed successfully.");
 
   return 0;
 }
