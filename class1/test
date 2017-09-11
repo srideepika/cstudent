@@ -1,0 +1,4 @@
+#!/bin/bash
+set -eu
+gcc guessing_game.c
+./a.out
