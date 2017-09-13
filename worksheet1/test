@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc operations.c main.c && ./a.out
+gcc main.c && ./a.out
