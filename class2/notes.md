@@ -38,6 +38,13 @@
 
 ### Compile and link as a program:
 We usually preprocess, compile, assemble and link all in one step. When you build bigger programs, you usually only link last.
+    
     gcc integral.c -o integral2
     ./integral2
+    
+# Compile with reasonable settings and warnings!
+This tells gcc to use the newest features (C2011), tell us about all warnings (possible errors it can think of) and to make those errors, so it doesn't just compile without making us fix it. Most people who seriously code in C advocate for these settings *all the time*.
+
+    gcc -std=c11 -Wall -Werror main.c
+
 
