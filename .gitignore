@@ -1,3 +1,4 @@
 *.o
 /solutions
 a.out
+class2/fizzbuzz.txt
