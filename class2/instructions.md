@@ -1,4 +1,11 @@
 # Today In Class:
+
+## Refresher / Getting logged in:
+
+    ssh you@umassc.ddns.net # Mac/Linux Terminal or PuTTY.
+    # Tired of your numeric password? Run the `passwd` program to change it.
+    cd class2
+
 ## Compilation and Libraries
  - Open up ``notes.md`` and practice compiling ``integral.c``.
 
