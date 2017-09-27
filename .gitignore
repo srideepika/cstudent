@@ -1,4 +1,10 @@
 *.o
+*.s
+class2/integral
+class2/integral2
+class2/integral3
+class2/stats
+class2/fizzbuzz
 /solutions
 a.out
 class2/fizzbuzz.txt
