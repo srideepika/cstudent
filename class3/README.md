@@ -1,6 +1,6 @@
 # Pool Data Structure
 
-![Pool Diagram](pool.png)
+![Pool Diagram](gfx/pool.png)
 
 With the ``free`` list starting at node 2, and the ``list`` variable pointing to 1, this is what the pool array looks like.
 
