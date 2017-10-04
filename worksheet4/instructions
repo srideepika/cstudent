@@ -1,0 +1,16 @@
+# Maze hw/worksheet instructions.
+
+Inside of maze.txt, there is a "map". This map is made of walls '#', stars '*', doors '.' and a player '@'. Anywhere with a ' ' is a regular part of a room.
+
+- Your goal for this worksheet is to write code that will read this map into a 2d array of characters. Consider the biggest map possible the size of a regular terminal display: 80x24. I suggest using 'fgetc()'. You will look for newlines '\n' and the special character EOF. Remember you can look up C functions using 'man fgetc'.
+
+- Print the map much like was done in the class exercise, but note that maps will have their own outside walls.
+
+- You will also print the (x,y) coordinates of the player, and all stars.
+
+- You will write a function ``bool is_wall(char** map, int x, int y)``, and make sure that it works. You will need <stdbool.h> to use true and false.
+
+- Call your program 'maze.c', and see if you can edit the Makefile from the class exercise to do your bidding. First copy it here: 'cp ../class3/Makefile .'
+
+- For extra credit / as a challenge, integrate command line arguments: load from argv[0] instead of "maze.txt" if you can. Refer to our projects from last week if you aren't sure how to get started -- they could read any file of numbers.
+
