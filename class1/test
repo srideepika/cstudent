@@ -1,2 +1,3 @@
 #!/bin/bash
+#Compile and run
 gcc guessing_game.c && ./a.out
